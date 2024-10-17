@@ -98,7 +98,7 @@ void showAttendance(struct discord *client, const struct discord_message *msg) {
             strcat(response, date);
             strcat(response, " }|");
             strcat(response, "\n");
-            strcat(response, "=======================");
+            strcat(response, "=======================\n");
 
         }
     }
